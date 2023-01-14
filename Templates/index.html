@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>Solve integration using python</title>
+    </head>
+    <body>
+        <form method="post" enctype="multipart/form-data">
+            <label>Upload Image:</label>
+            <input type="file" name="file">
+            <br>
+            <input type="submit" value="Solve">
+        </form>
+        
+        {% if result %}
+            <p>The result of the integral of {{ func }} is
+        <% endif %>        
+    </body>
+</html>
